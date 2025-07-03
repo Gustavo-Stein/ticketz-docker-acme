@@ -101,7 +101,7 @@ if [ "$BRANCH" = "" ] ; then
    echored "  A instalação irá prosseguir em 30 segundos   "
    echored "                                               "
    echo ""
-   sleep 30
+   sleep 3
    echo "Prosseguindo..."
 fi
 
