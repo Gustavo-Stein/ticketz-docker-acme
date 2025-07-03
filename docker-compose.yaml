@@ -68,7 +68,7 @@ services:
       - nginx-proxy
 
   frontend:
-    image: ghcr.io/ticketz-oss/ticketz-frontend:latest
+    image: ghcr.io/gustavo-stein/ticketz-frontend:latest
     volumes:
       - backend_public:/var/www/backend-public
     env_file:
