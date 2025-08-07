@@ -53,7 +53,7 @@ services:
       - nginx-proxy
 
   backend:
-    image: ghcr.io/ticketz-oss/ticketz-backend:latest
+    image: ghcr.io/gustavo-stein/ticketz-backend:latest
     volumes:
       - backend_public:/usr/src/app/public
       - backend_private:/usr/src/app/private
